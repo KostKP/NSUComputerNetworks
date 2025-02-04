@@ -2,14 +2,14 @@
 
 Console.WriteLine("Task 1 - Ping report");
 
-List<string> addresses = new List<string>
+List<string> addresses = new List<string>()
 {
+    "0.0.0.0",
     "127.0.0.1",
     "github.com",
     "google.com",
     "stackoverflow.com",
     "developer.mozilla.org",
-    "w3schools.com",
     "youtube.com",
     "wikipedia.org",
     "weather.com",
