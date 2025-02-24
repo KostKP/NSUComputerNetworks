@@ -67,7 +67,7 @@ internal class Program
                 if (args[3] == "-s") int.TryParse(args[0], out start);
                 else if (args[3] == "-l") int.TryParse(args[0], out limit);
 
-                if (start < 1 && limit < 1)
+                if (start < 1 || limit < 1)
                 {
                     Console.WriteLine("Wrong arguments!");
                     return;
