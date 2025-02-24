@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-PingReport", "1-PingReport\1-PingReport.csproj", "{F82A1C79-1BC2-4FF3-A0CD-9C52226A5E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-PingReport", "1-PingReport\1-PingReport.csproj", "{F82A1C79-1BC2-4FF3-A0CD-9C52226A5E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{B58AD823-01D9-45B8-B50F-27C90DB803B7}"
+	ProjectSection(SolutionItems) = preProject
+		2-Git = 2-Git
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-SeleniumParser", "3-SeleniumParser\3-SeleniumParser.csproj", "{4F1C697D-628A-404F-85AB-571E3AED6BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{F82A1C79-1BC2-4FF3-A0CD-9C52226A5E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F82A1C79-1BC2-4FF3-A0CD-9C52226A5E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F82A1C79-1BC2-4FF3-A0CD-9C52226A5E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1C697D-628A-404F-85AB-571E3AED6BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1C697D-628A-404F-85AB-571E3AED6BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1C697D-628A-404F-85AB-571E3AED6BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1C697D-628A-404F-85AB-571E3AED6BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
